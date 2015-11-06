@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="excel_sorter.Controller.GUIController" >
+   <children>
+      <Button fx:id="choosefile" layoutX="105.0" layoutY="103.0" mnemonicParsing="false" text="        Velg fil         " onAction="#selectFile"/>
+      <TextField fx:id="filelocation" layoutX="316.0" layoutY="103.0" promptText="Fillokasjon..." />
+      <Button fx:id="save" layoutX="105.0" layoutY="141.0" mnemonicParsing="false" text="Velg lagringssted" onAction="#selectSavinglocation" />
+      <Button fx:id="go" layoutX="542.0" layoutY="361.0" mnemonicParsing="false" text="Kjør" onAction="#run" />
+      <TextField fx:id="savetext" layoutX="316.0" layoutY="141.0" promptText="Lagringslokasjon..." />
+      <Label layoutX="234.0" layoutY="19.0" prefHeight="40.0" prefWidth="132.0" text="ExcelSorter">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
